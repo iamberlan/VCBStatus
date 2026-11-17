@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Roblox Voice Ban Status",
+  "version": "1.0.0",
+  "description": "Shows your Roblox voice ban status and time remaining.",
+  "permissions": ["alarms", "notifications", "storage"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "host_permissions": ["https://voice.roblox.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Voice ban status"
+  }
+}

@@ -1,0 +1,30 @@
+:root {
+  color-scheme: light dark;
+  font: 14px system-ui, sans-serif;
+}
+
+body {
+  width: 220px;
+  margin: 0;
+  padding: 16px;
+}
+
+p { margin: 0; }
+#status { font-weight: 600; }
+#remaining { margin-top: 6px; font-variant-numeric: tabular-nums; }
+
+button {
+  margin-top: 14px;
+  padding: 5px 12px;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:disabled { cursor: wait; }
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input { margin: 0 5px 0 0; }
